@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
+html, body{
     width: 100%;
     height: 100%;
+    font-family: 'Krona One';
 }
 .slider{
-    width: 70%;
+    width: 100%; /*ancho*/
     margin: auto;
     margin-top:50px;
     overflow: hidden;
@@ -53,7 +54,7 @@ body{
     color: white;
     bottom: 50px;
     left: 50px;
-    font-size: 3em;
+    font-size: 1.2em;
     z-index: 20;
     box-sizing: border-box;
 }

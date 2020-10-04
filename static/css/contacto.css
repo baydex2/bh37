@@ -1,0 +1,18 @@
+.contacto{
+    position: fixed;
+    width: 30px;
+    height: 60px;
+    right: 4px;
+    top: 60%;
+}
+.contacto > a > img{
+    width: 30px;
+    height: 30px;
+    transform: rotateY(180deg);
+    border-radius: 50%;
+}
+.contacto > a :hover{
+    width: 35px;
+    height: 35px;
+    margin-left: -5px;
+}
